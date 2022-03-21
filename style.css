@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* overflow: hidden; */
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.header{
+    background: linear-gradient(rgb(47 67 112 / 50%),rgb(47 67 112 / 50%)),url(assests/images/back-1.jpg);
+    background-size: cover;
+    height: 110vh;
+  width: 100%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.conatiner{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 25px;
+}
+
+.logo img{
+    width:125px;
+    padding: 15px;
+    margin-left: 35px;
+}
+.navbar{
+  
+    display: flex;
+    align-items: center;
+    /* padding: 20px; */
+    background: linear-gradient(rgba(1,10,28,.6),rgba(0, 0, 0, 0.377));
+    /* position: fixed; */
+}
+nav{
+    flex: 1;
+    text-align: center;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+a{
+    text-decoration: none;
+}
+nav ul li a{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    /* font-weight: 600; */
+}
+nav ul li a:hover{
+    color: red;
+    -webkit-text-stroke: .3px #000;
+    transition: .5s;
+}
+.menu-icon{
+    width: 28px;
+    display: none;
+}
+.contact-nav-button button{
+    font-size: 16px;
+    width: 180px;
+    padding: 20px;
+    margin-right:35px;
+    color: #fff;
+    background: linear-gradient(rgba(253, 93, 93, 0.61),rgba(255, 39, 39, 0.377));
+    outline: none;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    transform: scaleX(1);
+    
+}
+.contact-nav-button button:hover{
+    background: linear-gradient(rgba(160, 2, 2, 0.781),rgba(250, 28, 28, 0.822));
+    /* transform: scaleX(1.2); */
+    /* transition: ease-in-out .3s; */
+   
+    /* color: #000; */
+   
+}
+
+.row
+{
+    margin-top: 205px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    
+}
+.heading-1{
+color:#fff;
+font-family: 'Roboto Slab', serif;
+margin-left: 58px;
+font-size: 29px;
+text-transform: uppercase;
+
+}
+.col-2 img{
+    position: absolute;
+    width: 430px;
+    height: 150px;
+    top: 315px;
+    left: 28px;
+}
+.head-2{
+    margin: 35px;
+ margin-top: 75px;
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+}
+.a{
+    color: rgb(255, 196, 0);
+    font-size: 39px;
+    font-weight: 600;
+   
+}
